@@ -20,7 +20,7 @@ join customer c2 on s2.store_id = c2.store_id
 group by s.first_name, s.last_name, c.city 
 HAVING COUNTC > 300
 ```  
-![скрин](https://github.com/Karhq/12.4_hw_SQL_2/blob/main/Nom2.png)  
+![скрин](https://github.com/Karhq/12.4_hw_SQL_2/blob/main/Nom1.png)  
 
 ### Задание 2
 
@@ -32,7 +32,7 @@ select count(f.`length`)  from film f
 where length >  (select avg(f2.`length`) from film f2)
 ```
 
-![скрин](https://github.com/Karhq/12.4_hw_SQL_2/blob/main/Nom1.png)
+![скрин](https://github.com/Karhq/12.4_hw_SQL_2/blob/main/Nom2.png)
   
 ### Задание 3
 
